@@ -28,7 +28,7 @@ html {
   flex-flow: column;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
 	.discounts {
 		visibility: hidden;
 	 }
