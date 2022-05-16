@@ -34,8 +34,13 @@ html {
 	height: 300px;
  }
 
-@media (min-width: 600px) {
+.discounts {
+	visibility: hidden;
+ }
+
+
+@media (max-width: 600px) {
 	.discounts {
-		visibility: hidden;
+		visibility: visible;
 	 }
   }
